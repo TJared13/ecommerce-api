@@ -317,16 +317,16 @@ Items to reinforce and get comfortable with are:
         - Send
 
 - Additionally, pair up and take turns answering the following:
-  - What is Node?
-  - What is the request-response cycle?
-  - What is the purpose of a server?
-  - What's the `package.json` for?
-  - What are `node_modules`?
-  - What is Express?
-  - What does the `listen` method do?
-  - What are some common status codes and what do they mean?
-  - What's the difference between `npm install package-name` and `npm install -g package-name`?
-  - When should I use a `query` vs. a `param` and vice-versa?
+  - What is Node?  //* node.js is a js runtime environment to execute js outside of a web browser
+  - What is the request-response cycle? //* request comes from the client and responds with data from the server
+  - What is the purpose of a server? //* a server maintains and returns data that is requested from a client
+  - What's the `package.json` for? //* holds all the data about the server, like <meta> in html
+  - What are `node_modules`? //* a library of tools to build your server
+  - What is Express? //* framework to handle client requests and server responses
+  - What does the `listen` method do? //* monitors requests and responses on a specified port
+  - What are some common status codes and what do they mean? (200) = true/good/exists, (500) = false/bad/does not exist/ error
+  - What's the difference between `npm install package-name` and `npm install -g package-name`? //* -g installs globally on the OS, without -g installs into specific project
+  - When should I use a `query` vs. a `param` and vice-versa? //* params are specific, query can filter
 
 If your pair needs help answering these, utilize your available resources, then get with a mentor for further clarification. If needed, come back to the question later.
 
